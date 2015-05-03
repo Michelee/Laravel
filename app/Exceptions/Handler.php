@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php namespace Curso\Exceptions;
+=======
+<?php namespace App\Exceptions;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 <?php namespace App\Exceptions;
 >>>>>>> fc25262... Archivos proyecto nuevo laravel

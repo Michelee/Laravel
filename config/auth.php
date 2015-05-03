@@ -29,7 +29,11 @@ return [
 	*/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	'model' => 'Curso\User',
+=======
+	'model' => 'App\User',
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 	'model' => 'App\User',
 >>>>>>> fc25262... Archivos proyecto nuevo laravel

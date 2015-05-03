@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php namespace Curso\Console;
+=======
+<?php namespace App\Console;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 <?php namespace App\Console;
 >>>>>>> fc25262... Archivos proyecto nuevo laravel
@@ -16,7 +20,11 @@ class Kernel extends ConsoleKernel {
 	 */
 	protected $commands = [
 <<<<<<< HEAD
+<<<<<<< HEAD
 		'Curso\Console\Commands\Inspire',
+=======
+		'App\Console\Commands\Inspire',
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 		'App\Console\Commands\Inspire',
 >>>>>>> fc25262... Archivos proyecto nuevo laravel

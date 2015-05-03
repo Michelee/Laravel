@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php namespace Curso;
+=======
+<?php namespace App;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 <?php namespace App;
 >>>>>>> fc25262... Archivos proyecto nuevo laravel

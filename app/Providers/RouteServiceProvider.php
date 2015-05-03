@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php namespace Curso\Providers;
+=======
+<?php namespace App\Providers;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 <?php namespace App\Providers;
 >>>>>>> fc25262... Archivos proyecto nuevo laravel
@@ -17,7 +21,11 @@ class RouteServiceProvider extends ServiceProvider {
 	 * @var string
 	 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 	protected $namespace = 'Curso\Http\Controllers';
+=======
+	protected $namespace = 'App\Http\Controllers';
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 	protected $namespace = 'App\Http\Controllers';
 >>>>>>> fc25262... Archivos proyecto nuevo laravel

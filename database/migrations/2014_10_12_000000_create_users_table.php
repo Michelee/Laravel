@@ -16,11 +16,17 @@ class CreateUsersTable extends Migration {
 		{
 			$table->increments('id');
 <<<<<<< HEAD
+<<<<<<< HEAD
 			$table->string('first_name');
             $table->string('last_name');
 			$table->string('email')->unique();
 			$table->string('password', 60);
             $table->enum('type', ['admin','user']);
+=======
+			$table->string('name');
+			$table->string('email')->unique();
+			$table->string('password', 60);
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 			$table->string('name');
 			$table->string('email')->unique();

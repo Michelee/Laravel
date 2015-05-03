@@ -15,7 +15,11 @@ class DatabaseSeeder extends Seeder {
 		Model::unguard();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		 $this->call('AdminTableSeeder');
+=======
+		// $this->call('UserTableSeeder');
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 		// $this->call('UserTableSeeder');
 >>>>>>> fc25262... Archivos proyecto nuevo laravel

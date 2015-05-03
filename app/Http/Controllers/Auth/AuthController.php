@@ -1,7 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php namespace Curso\Http\Controllers\Auth;
 
 use Curso\Http\Controllers\Controller;
+=======
+<?php namespace App\Http\Controllers\Auth;
+
+use App\Http\Controllers\Controller;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 <?php namespace App\Http\Controllers\Auth;
 

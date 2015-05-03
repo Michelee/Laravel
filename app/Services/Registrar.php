@@ -1,7 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php namespace Curso\Services;
 
 use Curso\User;
+=======
+<?php namespace App\Services;
+
+use App\User;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 <?php namespace App\Services;
 

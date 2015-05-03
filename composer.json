@@ -10,8 +10,12 @@
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"phpspec/phpspec": "~2.1",
         "fzaninotto/faker": "1.5.*@dev"
+=======
+		"phpspec/phpspec": "~2.1"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 		"phpspec/phpspec": "~2.1"
 >>>>>>> fc25262... Archivos proyecto nuevo laravel
@@ -22,7 +26,11 @@
 		],
 		"psr-4": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"Curso\\": "app/"
+=======
+			"App\\": "app/"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 			"App\\": "app/"
 >>>>>>> fc25262... Archivos proyecto nuevo laravel

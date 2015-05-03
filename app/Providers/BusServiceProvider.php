@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php namespace Curso\Providers;
+=======
+<?php namespace App\Providers;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 <?php namespace App\Providers;
 >>>>>>> fc25262... Archivos proyecto nuevo laravel
@@ -21,7 +25,11 @@ class BusServiceProvider extends ServiceProvider {
 		{
 			return Dispatcher::simpleMapping(
 <<<<<<< HEAD
+<<<<<<< HEAD
 				$command, 'Curso\Commands', 'Curso\Handlers\Commands'
+=======
+				$command, 'App\Commands', 'App\Handlers\Commands'
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 =======
 				$command, 'App\Commands', 'App\Handlers\Commands'
 >>>>>>> fc25262... Archivos proyecto nuevo laravel

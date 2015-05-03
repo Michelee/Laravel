@@ -140,17 +140,23 @@ return [
 		 * Application Service Providers...
 		 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		'Curso\Providers\AppServiceProvider',
 		'Curso\Providers\BusServiceProvider',
 		'Curso\Providers\ConfigServiceProvider',
 		'Curso\Providers\EventServiceProvider',
 		'Curso\Providers\RouteServiceProvider',
 =======
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 		'App\Providers\AppServiceProvider',
 		'App\Providers\BusServiceProvider',
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
+<<<<<<< HEAD
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
+=======
 >>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 	],
