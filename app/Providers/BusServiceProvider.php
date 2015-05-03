@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Providers;
+=======
+<?php namespace App\Providers;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -16,7 +20,11 @@ class BusServiceProvider extends ServiceProvider {
 		$dispatcher->mapUsing(function($command)
 		{
 			return Dispatcher::simpleMapping(
+<<<<<<< HEAD
 				$command, 'Curso\Commands', 'Curso\Handlers\Commands'
+=======
+				$command, 'App\Commands', 'App\Handlers\Commands'
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 			);
 		});
 	}

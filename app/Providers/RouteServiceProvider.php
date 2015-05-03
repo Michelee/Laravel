@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Providers;
+=======
+<?php namespace App\Providers;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -12,7 +16,11 @@ class RouteServiceProvider extends ServiceProvider {
 	 *
 	 * @var string
 	 */
+<<<<<<< HEAD
 	protected $namespace = 'Curso\Http\Controllers';
+=======
+	protected $namespace = 'App\Http\Controllers';
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 	/**
 	 * Define your route model bindings, pattern filters, etc.

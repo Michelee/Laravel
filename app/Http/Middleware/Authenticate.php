@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Http\Middleware;
+=======
+<?php namespace App\Http\Middleware;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

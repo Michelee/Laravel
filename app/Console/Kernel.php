@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Console;
+=======
+<?php namespace App\Console;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -11,7 +15,11 @@ class Kernel extends ConsoleKernel {
 	 * @var array
 	 */
 	protected $commands = [
+<<<<<<< HEAD
 		'Curso\Console\Commands\Inspire',
+=======
+		'App\Console\Commands\Inspire',
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 	];
 
 	/**

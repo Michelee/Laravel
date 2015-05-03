@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Exceptions;
+=======
+<?php namespace App\Exceptions;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

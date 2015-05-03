@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso;
+=======
+<?php namespace App;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

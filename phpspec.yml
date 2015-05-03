@@ -1,5 +1,10 @@
 suites:
     main:
+<<<<<<< HEAD
         namespace: Curso
         psr4_prefix: Curso
+=======
+        namespace: App
+        psr4_prefix: App
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         src_path: app

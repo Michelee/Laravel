@@ -4,6 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "hash": "ba295c239d27c3f30309f5b86d01f02e",
     "packages": [
         {
@@ -22,6 +23,26 @@
             },
             "require": {
                 "nikic/php-parser": "^1.2.2",
+=======
+    "hash": "24c3946acc997e3f3eca7fc5c99585b2",
+    "packages": [
+        {
+            "name": "classpreloader/classpreloader",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ClassPreloader/ClassPreloader.git",
+                "reference": "f0bfbf71fb3335c9473f695d4d966ba2fb879a9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/f0bfbf71fb3335c9473f695d4d966ba2fb879a9f",
+                "reference": "f0bfbf71fb3335c9473f695d4d966ba2fb879a9f",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/php-parser": "~1.0",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "php": ">=5.3.3",
                 "symfony/console": "~2.1",
                 "symfony/filesystem": "~2.1",
@@ -36,7 +57,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.3-dev"
+=======
+                    "dev-master": "1.2-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -64,7 +89,11 @@
                 "class",
                 "preload"
             ],
+<<<<<<< HEAD
             "time": "2015-04-15 21:59:30"
+=======
+            "time": "2015-01-26 22:06:19"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         },
         {
             "name": "danielstjules/stringy",
@@ -410,6 +439,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v5.0.28",
             "source": {
                 "type": "git",
@@ -420,6 +450,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/06a09429322cf53e5bd4587db1060f02a291562e",
                 "reference": "06a09429322cf53e5bd4587db1060f02a291562e",
+=======
+            "version": "v5.0.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "861a1e78c84dca82fe4bd85d00349c52304eea77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/861a1e78c84dca82fe4bd85d00349c52304eea77",
+                "reference": "861a1e78c84dca82fe4bd85d00349c52304eea77",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -489,7 +531,11 @@
                 "predis/predis": "~1.0"
             },
             "suggest": {
+<<<<<<< HEAD
                 "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (~2.4).",
+=======
+                "aws/aws-sdk-php": "Required to use the SQS queue driver (~2.4).",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.4).",
                 "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers (~5.0).",
                 "iron-io/iron_mq": "Required to use the iron queue driver (~1.5).",
@@ -532,6 +578,7 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2015-04-21 01:44:32"
         },
         {
@@ -546,6 +593,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/3c2400a99ccc3be6884d40361890010449c6b447",
                 "reference": "3c2400a99ccc3be6884d40361890010449c6b447",
+=======
+            "time": "2015-03-13 13:27:55"
+        },
+        {
+            "name": "league/flysystem",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "51cd7cd7ee0defbaafc6ec0d3620110a5d71e11a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/51cd7cd7ee0defbaafc6ec0d3620110a5d71e11a",
+                "reference": "51cd7cd7ee0defbaafc6ec0d3620110a5d71e11a",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -555,7 +618,11 @@
                 "ext-fileinfo": "*",
                 "league/phpunit-coverage-listener": "~1.1",
                 "mockery/mockery": "~0.9",
+<<<<<<< HEAD
                 "phpspec/phpspec": "~2.0",
+=======
+                "phpspec/phpspec": "~2.0.0",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "phpspec/prophecy-phpunit": "~1.0",
                 "phpunit/phpunit": "~4.1",
                 "predis/predis": "~1.0",
@@ -615,7 +682,11 @@
                 "sftp",
                 "storage"
             ],
+<<<<<<< HEAD
             "time": "2015-03-29 14:01:43"
+=======
+            "time": "2015-03-10 11:04:14"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         },
         {
             "name": "monolog/monolog",
@@ -736,6 +807,7 @@
         },
         {
             "name": "nesbot/carbon",
+<<<<<<< HEAD
             "version": "1.18.0",
             "source": {
                 "type": "git",
@@ -751,6 +823,22 @@
             "require": {
                 "php": ">=5.3.0",
                 "symfony/translation": "2.6.*"
+=======
+            "version": "1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "a1dd1ad9abfc8b3c4d8768068e6c71d293424e86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a1dd1ad9abfc8b3c4d8768068e6c71d293424e86",
+                "reference": "a1dd1ad9abfc8b3c4d8768068e6c71d293424e86",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
@@ -779,6 +867,7 @@
                 "datetime",
                 "time"
             ],
+<<<<<<< HEAD
             "time": "2015-03-26 03:05:57"
         },
         {
@@ -793,6 +882,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dff239267fd1befa1cd40430c9ed12591aa720ca",
                 "reference": "dff239267fd1befa1cd40430c9ed12591aa720ca",
+=======
+            "time": "2015-03-08 14:05:44"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ac05ef6f95bf8361549604b6031c115f92f39528",
+                "reference": "ac05ef6f95bf8361549604b6031c115f92f39528",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -802,7 +907,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.3-dev"
+=======
+                    "dev-master": "1.0-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -824,7 +933,11 @@
                 "parser",
                 "php"
             ],
+<<<<<<< HEAD
             "time": "2015-05-02 15:40:40"
+=======
+            "time": "2015-01-18 11:29:59"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         },
         {
             "name": "psr/log",
@@ -866,6 +979,7 @@
         },
         {
             "name": "psy/psysh",
+<<<<<<< HEAD
             "version": "v0.4.4",
             "source": {
                 "type": "git",
@@ -876,6 +990,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/489816db71649bd95b416e3ed9062d40528ab0ac",
                 "reference": "489816db71649bd95b416e3ed9062d40528ab0ac",
+=======
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/psysh.git",
+                "reference": "3787f3436f4fd898e0ac1eb6f5abd2ab6b24085b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/3787f3436f4fd898e0ac1eb6f5abd2ab6b24085b",
+                "reference": "3787f3436f4fd898e0ac1eb6f5abd2ab6b24085b",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -886,10 +1012,17 @@
                 "symfony/console": "~2.3.10|~2.4.2|~2.5"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "fabpot/php-cs-fixer": "~1.5",
                 "phpunit/phpunit": "~3.7|~4.0",
                 "squizlabs/php_codesniffer": "~2.0",
                 "symfony/finder": "~2.1|~3.0"
+=======
+                "fabpot/php-cs-fixer": "~1.3",
+                "phpunit/phpunit": "~3.7|~4.0",
+                "squizlabs/php_codesniffer": "~2.0",
+                "symfony/finder": "~2.1"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "suggest": {
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
@@ -903,7 +1036,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-develop": "0.4.x-dev"
+=======
+                    "dev-develop": "0.3.x-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -933,6 +1070,7 @@
                 "interactive",
                 "shell"
             ],
+<<<<<<< HEAD
             "time": "2015-03-26 18:43:54"
         },
         {
@@ -947,6 +1085,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/31454f258f10329ae7c48763eb898a75c39e0a9f",
                 "reference": "31454f258f10329ae7c48763eb898a75c39e0a9f",
+=======
+            "time": "2015-02-25 20:35:54"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+                "reference": "c5f963e7f9d6f6438fda4f22d5cc2db296ec621a",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -958,7 +1112,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "5.4-dev"
+=======
+                    "dev-master": "5.3-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -985,21 +1143,38 @@
                 "mail",
                 "mailer"
             ],
+<<<<<<< HEAD
             "time": "2015-03-14 06:06:39"
         },
         {
             "name": "symfony/console",
             "version": "v2.6.6",
+=======
+            "time": "2014-12-05 14:17:14"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
+<<<<<<< HEAD
                 "reference": "5b91dc4ed5eb08553f57f6df04c4730a73992667"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Console/zipball/5b91dc4ed5eb08553f57f6df04c4730a73992667",
                 "reference": "5b91dc4ed5eb08553f57f6df04c4730a73992667",
+=======
+                "reference": "e44154bfe3e41e8267d7a3794cd9da9a51cfac34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/e44154bfe3e41e8267d7a3794cd9da9a51cfac34",
+                "reference": "e44154bfe3e41e8267d7a3794cd9da9a51cfac34",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -1008,7 +1183,10 @@
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/event-dispatcher": "~2.1",
+<<<<<<< HEAD
                 "symfony/phpunit-bridge": "~2.7",
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "symfony/process": "~2.1"
             },
             "suggest": {
@@ -1043,21 +1221,38 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-30 15:54:10"
         },
         {
             "name": "symfony/debug",
             "version": "v2.6.6",
+=======
+            "time": "2015-01-25 04:39:26"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Debug",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
+<<<<<<< HEAD
                 "reference": "d49a46a20a8f0544aedac54466750ad787d3d3e3"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Debug/zipball/d49a46a20a8f0544aedac54466750ad787d3d3e3",
                 "reference": "d49a46a20a8f0544aedac54466750ad787d3d3e3",
+=======
+                "reference": "150c80059c3ccf68f96a4fceb513eb6b41f23300"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/150c80059c3ccf68f96a4fceb513eb6b41f23300",
+                "reference": "150c80059c3ccf68f96a4fceb513eb6b41f23300",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -1070,8 +1265,12 @@
             "require-dev": {
                 "symfony/class-loader": "~2.2",
                 "symfony/http-foundation": "~2.1",
+<<<<<<< HEAD
                 "symfony/http-kernel": "~2.3.24|~2.5.9|~2.6,>=2.6.2",
                 "symfony/phpunit-bridge": "~2.7"
+=======
+                "symfony/http-kernel": "~2.3.24|~2.5.9|~2.6,>=2.6.2"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "suggest": {
                 "symfony/http-foundation": "",
@@ -1104,21 +1303,38 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-22 16:55:57"
         },
         {
             "name": "symfony/event-dispatcher",
             "version": "v2.6.6",
+=======
+            "time": "2015-01-21 20:57:55"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
+<<<<<<< HEAD
                 "reference": "70f7c8478739ad21e3deef0d977b38c77f1fb284"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/70f7c8478739ad21e3deef0d977b38c77f1fb284",
                 "reference": "70f7c8478739ad21e3deef0d977b38c77f1fb284",
+=======
+                "reference": "f75989f3ab2743a82fe0b03ded2598a2b1546813"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/f75989f3ab2743a82fe0b03ded2598a2b1546813",
+                "reference": "f75989f3ab2743a82fe0b03ded2598a2b1546813",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -1129,7 +1345,10 @@
                 "symfony/config": "~2.0,>=2.0.5",
                 "symfony/dependency-injection": "~2.6",
                 "symfony/expression-language": "~2.6",
+<<<<<<< HEAD
                 "symfony/phpunit-bridge": "~2.7",
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "symfony/stopwatch": "~2.3"
             },
             "suggest": {
@@ -1163,29 +1382,49 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-13 17:37:22"
         },
         {
             "name": "symfony/filesystem",
             "version": "v2.6.6",
+=======
+            "time": "2015-02-01 16:10:57"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
+<<<<<<< HEAD
                 "reference": "4983964b3693e4f13449cb3800c64a9112c301b4"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Filesystem/zipball/4983964b3693e4f13449cb3800c64a9112c301b4",
                 "reference": "4983964b3693e4f13449cb3800c64a9112c301b4",
+=======
+                "reference": "a1f566d1f92e142fa1593f4555d6d89e3044a9b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/a1f566d1f92e142fa1593f4555d6d89e3044a9b7",
+                "reference": "a1f566d1f92e142fa1593f4555d6d89e3044a9b7",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+<<<<<<< HEAD
             "require-dev": {
                 "symfony/phpunit-bridge": "~2.7"
             },
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1213,29 +1452,49 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-22 16:55:57"
         },
         {
             "name": "symfony/finder",
             "version": "v2.6.6",
+=======
+            "time": "2015-01-03 21:13:09"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
+<<<<<<< HEAD
                 "reference": "5dbe2e73a580618f5b4880fda93406eed25de251"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Finder/zipball/5dbe2e73a580618f5b4880fda93406eed25de251",
                 "reference": "5dbe2e73a580618f5b4880fda93406eed25de251",
+=======
+                "reference": "16513333bca64186c01609961a2bb1b95b5e1355"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/16513333bca64186c01609961a2bb1b95b5e1355",
+                "reference": "16513333bca64186c01609961a2bb1b95b5e1355",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+<<<<<<< HEAD
             "require-dev": {
                 "symfony/phpunit-bridge": "~2.7"
             },
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1263,29 +1522,50 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-30 15:54:10"
         },
         {
             "name": "symfony/http-foundation",
             "version": "v2.6.6",
+=======
+            "time": "2015-01-03 08:01:59"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
+<<<<<<< HEAD
                 "reference": "8a6337233f08f7520de97f4ffd6f00e947d892f9"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/8a6337233f08f7520de97f4ffd6f00e947d892f9",
                 "reference": "8a6337233f08f7520de97f4ffd6f00e947d892f9",
+=======
+                "reference": "8fa63d614d56ccfe033e30411d90913cfc483ff6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/8fa63d614d56ccfe033e30411d90913cfc483ff6",
+                "reference": "8fa63d614d56ccfe033e30411d90913cfc483ff6",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "symfony/expression-language": "~2.4",
                 "symfony/phpunit-bridge": "~2.7"
+=======
+                "symfony/expression-language": "~2.4"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "type": "library",
             "extra": {
@@ -1317,21 +1597,38 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-04-01 16:50:12"
         },
         {
             "name": "symfony/http-kernel",
             "version": "v2.6.6",
+=======
+            "time": "2015-02-01 16:10:57"
+        },
+        {
+            "name": "symfony/http-kernel",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/HttpKernel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
+<<<<<<< HEAD
                 "reference": "3829cacfe21eaf3f73604a62d79183d1f6e792c4"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/3829cacfe21eaf3f73604a62d79183d1f6e792c4",
                 "reference": "3829cacfe21eaf3f73604a62d79183d1f6e792c4",
+=======
+                "reference": "27abf3106d8bd08562070dd4e2438c279792c434"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/27abf3106d8bd08562070dd4e2438c279792c434",
+                "reference": "27abf3106d8bd08562070dd4e2438c279792c434",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -1351,7 +1648,10 @@
                 "symfony/dom-crawler": "~2.0,>=2.0.5",
                 "symfony/expression-language": "~2.4",
                 "symfony/finder": "~2.0,>=2.0.5",
+<<<<<<< HEAD
                 "symfony/phpunit-bridge": "~2.7",
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "symfony/process": "~2.0,>=2.0.5",
                 "symfony/routing": "~2.2",
                 "symfony/stopwatch": "~2.3",
@@ -1395,29 +1695,49 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-04-01 16:55:26"
         },
         {
             "name": "symfony/process",
             "version": "v2.6.6",
+=======
+            "time": "2015-02-02 18:02:30"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
+<<<<<<< HEAD
                 "reference": "a8bebaec1a9dc6cde53e0250e32917579b0be552"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Process/zipball/a8bebaec1a9dc6cde53e0250e32917579b0be552",
                 "reference": "a8bebaec1a9dc6cde53e0250e32917579b0be552",
+=======
+                "reference": "ecfc23e89d9967999fa5f60a1e9af7384396e9ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/ecfc23e89d9967999fa5f60a1e9af7384396e9ae",
+                "reference": "ecfc23e89d9967999fa5f60a1e9af7384396e9ae",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+<<<<<<< HEAD
             "require-dev": {
                 "symfony/phpunit-bridge": "~2.7"
             },
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1445,21 +1765,38 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-30 15:54:10"
         },
         {
             "name": "symfony/routing",
             "version": "v2.6.6",
+=======
+            "time": "2015-01-25 04:39:26"
+        },
+        {
+            "name": "symfony/routing",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Routing",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing.git",
+<<<<<<< HEAD
                 "reference": "4e173a645b63ff60a124f3741b4f15feebd908fa"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Routing/zipball/4e173a645b63ff60a124f3741b4f15feebd908fa",
                 "reference": "4e173a645b63ff60a124f3741b4f15feebd908fa",
+=======
+                "reference": "bda1c3c67f2a33bbeabb1d321feaf626a0ca5698"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/bda1c3c67f2a33bbeabb1d321feaf626a0ca5698",
+                "reference": "bda1c3c67f2a33bbeabb1d321feaf626a0ca5698",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -1472,7 +1809,10 @@
                 "symfony/config": "~2.2",
                 "symfony/expression-language": "~2.4",
                 "symfony/http-foundation": "~2.3",
+<<<<<<< HEAD
                 "symfony/phpunit-bridge": "~2.7",
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "symfony/yaml": "~2.0,>=2.0.5"
             },
             "suggest": {
@@ -1514,21 +1854,38 @@
                 "uri",
                 "url"
             ],
+<<<<<<< HEAD
             "time": "2015-03-30 15:54:10"
         },
         {
             "name": "symfony/security-core",
             "version": "v2.6.6",
+=======
+            "time": "2015-01-15 12:15:12"
+        },
+        {
+            "name": "symfony/security-core",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Security/Core",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
+<<<<<<< HEAD
                 "reference": "d25c17db741f58c0f615e52006a47f6fb23cd9b3"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/security-core/zipball/d25c17db741f58c0f615e52006a47f6fb23cd9b3",
                 "reference": "d25c17db741f58c0f615e52006a47f6fb23cd9b3",
+=======
+                "reference": "4603bcc66e20e23f018c67f7f9f3f8146a100c11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/4603bcc66e20e23f018c67f7f9f3f8146a100c11",
+                "reference": "4603bcc66e20e23f018c67f7f9f3f8146a100c11",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -1540,7 +1897,10 @@
                 "symfony/event-dispatcher": "~2.1",
                 "symfony/expression-language": "~2.6",
                 "symfony/http-foundation": "~2.4",
+<<<<<<< HEAD
                 "symfony/phpunit-bridge": "~2.7",
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "symfony/translation": "~2.0,>=2.0.5",
                 "symfony/validator": "~2.5,>=2.5.5"
             },
@@ -1578,21 +1938,38 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-30 15:54:10"
         },
         {
             "name": "symfony/translation",
             "version": "v2.6.6",
+=======
+            "time": "2015-01-25 04:39:26"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Translation",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation.git",
+<<<<<<< HEAD
                 "reference": "bd939f05cdaca128f4ddbae1b447d6f0203b60af"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Translation/zipball/bd939f05cdaca128f4ddbae1b447d6f0203b60af",
                 "reference": "bd939f05cdaca128f4ddbae1b447d6f0203b60af",
+=======
+                "reference": "f289cdf8179d32058c1e1cbac723106a5ff6fa39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Translation/zipball/f289cdf8179d32058c1e1cbac723106a5ff6fa39",
+                "reference": "f289cdf8179d32058c1e1cbac723106a5ff6fa39",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -1602,7 +1979,10 @@
                 "psr/log": "~1.0",
                 "symfony/config": "~2.3,>=2.3.12",
                 "symfony/intl": "~2.3",
+<<<<<<< HEAD
                 "symfony/phpunit-bridge": "~2.7",
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "symfony/yaml": "~2.2"
             },
             "suggest": {
@@ -1637,29 +2017,49 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-30 15:54:10"
         },
         {
             "name": "symfony/var-dumper",
             "version": "v2.6.6",
+=======
+            "time": "2015-01-03 15:33:07"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/VarDumper",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
+<<<<<<< HEAD
                 "reference": "aafae00236e147568832de3c65ccb94cfc836278"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/aafae00236e147568832de3c65ccb94cfc836278",
                 "reference": "aafae00236e147568832de3c65ccb94cfc836278",
+=======
+                "reference": "c3d5a36c3e3298bd8b070488fba5537174647353"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/c3d5a36c3e3298bd8b070488fba5537174647353",
+                "reference": "c3d5a36c3e3298bd8b070488fba5537174647353",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+<<<<<<< HEAD
             "require-dev": {
                 "symfony/phpunit-bridge": "~2.7"
             },
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "suggest": {
                 "ext-symfony_debug": ""
             },
@@ -1697,7 +2097,11 @@
                 "debug",
                 "dump"
             ],
+<<<<<<< HEAD
             "time": "2015-03-31 08:12:29"
+=======
+            "time": "2015-02-02 16:32:08"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1807,6 +2211,7 @@
             "time": "2014-10-13 12:58:55"
         },
         {
+<<<<<<< HEAD
             "name": "fzaninotto/faker",
             "version": "dev-master",
             "source": {
@@ -1859,6 +2264,8 @@
             "time": "2015-04-27 20:30:06"
         },
         {
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "name": "phpdocumentor/reflection-docblock",
             "version": "2.0.4",
             "source": {
@@ -1943,6 +2350,7 @@
         },
         {
             "name": "phpspec/phpspec",
+<<<<<<< HEAD
             "version": "2.2.0",
             "source": {
                 "type": "git",
@@ -1960,6 +2368,25 @@
                 "php": ">=5.3.3",
                 "phpspec/php-diff": "~1.0.0",
                 "phpspec/prophecy": "~1.4",
+=======
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpspec/phpspec.git",
+                "reference": "66a1df93099282b1514e9e001fcf6e9393f7783d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/66a1df93099282b1514e9e001fcf6e9393f7783d",
+                "reference": "66a1df93099282b1514e9e001fcf6e9393f7783d",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "~1.0,>=1.0.1",
+                "php": ">=5.3.3",
+                "phpspec/php-diff": "~1.0.0",
+                "phpspec/prophecy": "~1.1",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "sebastian/exporter": "~1.0",
                 "symfony/console": "~2.3",
                 "symfony/event-dispatcher": "~2.1",
@@ -1968,11 +2395,17 @@
                 "symfony/yaml": "~2.1"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "behat/behat": "^3.0.11",
                 "bossa/phpspec2-expect": "~1.0",
                 "phpunit/phpunit": "~4.4",
                 "symfony/filesystem": "~2.1",
                 "symfony/process": "~2.1"
+=======
+                "behat/behat": "~3.0,>=3.0.11",
+                "bossa/phpspec2-expect": "~1.0",
+                "symfony/filesystem": "~2.1"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "suggest": {
                 "phpspec/nyan-formatters": "~1.0 – Adds Nyan formatters"
@@ -1983,7 +2416,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "2.2.x-dev"
+=======
+                    "dev-master": "2.1.x-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -2017,6 +2454,7 @@
                 "testing",
                 "tests"
             ],
+<<<<<<< HEAD
             "time": "2015-04-18 16:22:51"
         },
         {
@@ -2037,6 +2475,27 @@
                 "doctrine/instantiator": "^1.0.2",
                 "phpdocumentor/reflection-docblock": "~2.0",
                 "sebastian/comparator": "~1.1"
+=======
+            "time": "2015-01-09 13:21:45"
+        },
+        {
+            "name": "phpspec/prophecy",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpspec/prophecy.git",
+                "reference": "9ca52329bcdd1500de24427542577ebf3fc2f1c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/9ca52329bcdd1500de24427542577ebf3fc2f1c9",
+                "reference": "9ca52329bcdd1500de24427542577ebf3fc2f1c9",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "~1.0,>=1.0.2",
+                "phpdocumentor/reflection-docblock": "~2.0"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "require-dev": {
                 "phpspec/phpspec": "~2.0"
@@ -2044,7 +2503,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.4.x-dev"
+=======
+                    "dev-master": "1.2.x-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -2068,7 +2531,11 @@
                 }
             ],
             "description": "Highly opinionated mocking framework for PHP 5.3+",
+<<<<<<< HEAD
             "homepage": "https://github.com/phpspec/prophecy",
+=======
+            "homepage": "http://phpspec.org",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "keywords": [
                 "Double",
                 "Dummy",
@@ -2077,6 +2544,7 @@
                 "spy",
                 "stub"
             ],
+<<<<<<< HEAD
             "time": "2015-04-27 22:15:08"
         },
         {
@@ -2091,6 +2559,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/934fd03eb6840508231a7f73eb8940cf32c3b66c",
                 "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c",
+=======
+            "time": "2014-11-17 16:23:49"
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "2.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "34cc484af1ca149188d0d9e91412191e398e0b67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/34cc484af1ca149188d0d9e91412191e398e0b67",
+                "reference": "34cc484af1ca149188d0d9e91412191e398e0b67",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -2139,6 +2623,7 @@
                 "testing",
                 "xunit"
             ],
+<<<<<<< HEAD
             "time": "2015-04-11 04:35:00"
         },
         {
@@ -2153,12 +2638,29 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/a923bb15680d0089e2316f7a4af8f437046e96bb",
                 "reference": "a923bb15680d0089e2316f7a4af8f437046e96bb",
+=======
+            "time": "2015-01-24 10:06:35"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "1.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "type": "library",
+<<<<<<< HEAD
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.4.x-dev"
@@ -2170,6 +2672,17 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+=======
+            "autoload": {
+                "classmap": [
+                    "File/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "license": [
                 "BSD-3-Clause"
             ],
@@ -2186,7 +2699,11 @@
                 "filesystem",
                 "iterator"
             ],
+<<<<<<< HEAD
             "time": "2015-04-02 05:19:05"
+=======
+            "time": "2013-10-10 15:34:57"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         },
         {
             "name": "phpunit/php-text-template",
@@ -2278,6 +2795,7 @@
         },
         {
             "name": "phpunit/php-token-stream",
+<<<<<<< HEAD
             "version": "1.4.1",
             "source": {
                 "type": "git",
@@ -2288,6 +2806,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/eab81d02569310739373308137284e0158424330",
                 "reference": "eab81d02569310739373308137284e0158424330",
+=======
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "db32c18eba00b121c145575fcbcd4d4d24e6db74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/db32c18eba00b121c145575fcbcd4d4d24e6db74",
+                "reference": "db32c18eba00b121c145575fcbcd4d4d24e6db74",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -2323,6 +2853,7 @@
             "keywords": [
                 "tokenizer"
             ],
+<<<<<<< HEAD
             "time": "2015-04-08 04:46:07"
         },
         {
@@ -2337,6 +2868,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3afe303d873a4d64c62ef84de491b97b006fbdac",
                 "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac",
+=======
+            "time": "2015-01-17 09:51:32"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "4.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "5b578d3865a9128b9c209b011fda6539ec06e7a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5b578d3865a9128b9c209b011fda6539ec06e7a5",
+                "reference": "5b578d3865a9128b9c209b011fda6539ec06e7a5",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -2346,6 +2893,7 @@
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "php": ">=5.3.3",
+<<<<<<< HEAD
                 "phpspec/prophecy": "~1.3,>=1.3.1",
                 "phpunit/php-code-coverage": "~2.0,>=2.0.11",
                 "phpunit/php-file-iterator": "~1.4",
@@ -2354,11 +2902,25 @@
                 "phpunit/phpunit-mock-objects": "~2.3",
                 "sebastian/comparator": "~1.1",
                 "sebastian/diff": "~1.2",
+=======
+                "phpspec/prophecy": "~1.3.1",
+                "phpunit/php-code-coverage": "~2.0",
+                "phpunit/php-file-iterator": "~1.3.2",
+                "phpunit/php-text-template": "~1.2",
+                "phpunit/php-timer": "~1.0.2",
+                "phpunit/phpunit-mock-objects": "~2.3",
+                "sebastian/comparator": "~1.1",
+                "sebastian/diff": "~1.1",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "sebastian/environment": "~1.2",
                 "sebastian/exporter": "~1.2",
                 "sebastian/global-state": "~1.0",
                 "sebastian/version": "~1.0",
+<<<<<<< HEAD
                 "symfony/yaml": "~2.1|~3.0"
+=======
+                "symfony/yaml": "~2.0"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "suggest": {
                 "phpunit/php-invoker": "~1.1"
@@ -2369,7 +2931,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "4.6.x-dev"
+=======
+                    "dev-master": "4.5.x-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -2395,6 +2961,7 @@
                 "testing",
                 "xunit"
             ],
+<<<<<<< HEAD
             "time": "2015-04-29 15:18:52"
         },
         {
@@ -2413,11 +2980,35 @@
             },
             "require": {
                 "doctrine/instantiator": "~1.0,>=1.0.2",
+=======
+            "time": "2015-02-05 15:51:19"
+        },
+        {
+            "name": "phpunit/phpunit-mock-objects",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "c63d2367247365f688544f0d500af90a11a44c65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/c63d2367247365f688544f0d500af90a11a44c65",
+                "reference": "c63d2367247365f688544f0d500af90a11a44c65",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "~1.0,>=1.0.1",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "php": ">=5.3.3",
                 "phpunit/php-text-template": "~1.2"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "phpunit/phpunit": "~4.4"
+=======
+                "phpunit/phpunit": "~4.3"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "suggest": {
                 "ext-soap": "*"
@@ -2450,7 +3041,11 @@
                 "mock",
                 "xunit"
             ],
+<<<<<<< HEAD
             "time": "2015-04-02 05:36:41"
+=======
+            "time": "2014-10-03 05:12:11"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         },
         {
             "name": "sebastian/comparator",
@@ -2518,6 +3113,7 @@
         },
         {
             "name": "sebastian/diff",
+<<<<<<< HEAD
             "version": "1.3.0",
             "source": {
                 "type": "git",
@@ -2528,6 +3124,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/863df9687835c62aa423a22412d26fa2ebde3fd3",
                 "reference": "863df9687835c62aa423a22412d26fa2ebde3fd3",
+=======
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "5843509fed39dee4b356a306401e9dd1a931fec7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/5843509fed39dee4b356a306401e9dd1a931fec7",
+                "reference": "5843509fed39dee4b356a306401e9dd1a931fec7",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
@@ -2539,7 +3147,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.3-dev"
+=======
+                    "dev-master": "1.2-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -2566,6 +3178,7 @@
             "keywords": [
                 "diff"
             ],
+<<<<<<< HEAD
             "time": "2015-02-22 15:13:53"
         },
         {
@@ -2580,18 +3193,42 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/5a8c7d31914337b69923db26c4221b81ff5a196e",
                 "reference": "5a8c7d31914337b69923db26c4221b81ff5a196e",
+=======
+            "time": "2014-08-15 10:29:00"
+        },
+        {
+            "name": "sebastian/environment",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/environment.git",
+                "reference": "6e6c71d918088c251b181ba8b3088af4ac336dd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6e6c71d918088c251b181ba8b3088af4ac336dd7",
+                "reference": "6e6c71d918088c251b181ba8b3088af4ac336dd7",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "phpunit/phpunit": "~4.4"
+=======
+                "phpunit/phpunit": "~4.3"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.3.x-dev"
+=======
+                    "dev-master": "1.2.x-dev"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 }
             },
             "autoload": {
@@ -2616,7 +3253,11 @@
                 "environment",
                 "hhvm"
             ],
+<<<<<<< HEAD
             "time": "2015-01-01 10:01:08"
+=======
+            "time": "2014-10-25 08:00:45"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         },
         {
             "name": "sebastian/exporter",
@@ -2790,6 +3431,7 @@
         },
         {
             "name": "sebastian/version",
+<<<<<<< HEAD
             "version": "1.0.5",
             "source": {
                 "type": "git",
@@ -2800,6 +3442,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/ab931d46cd0d3204a91e1b9a40c4bc13032b58e4",
                 "reference": "ab931d46cd0d3204a91e1b9a40c4bc13032b58e4",
+=======
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "a77d9123f8e809db3fbdea15038c27a95da4058b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/a77d9123f8e809db3fbdea15038c27a95da4058b",
+                "reference": "a77d9123f8e809db3fbdea15038c27a95da4058b",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "type": "library",
@@ -2821,29 +3475,49 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
+<<<<<<< HEAD
             "time": "2015-02-24 06:35:25"
         },
         {
             "name": "symfony/yaml",
             "version": "v2.6.6",
+=======
+            "time": "2014-12-15 14:25:24"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.6.4",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
+<<<<<<< HEAD
                 "reference": "174f009ed36379a801109955fc5a71a49fe62dd4"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/Yaml/zipball/174f009ed36379a801109955fc5a71a49fe62dd4",
                 "reference": "174f009ed36379a801109955fc5a71a49fe62dd4",
+=======
+                "reference": "60ed7751671113cf1ee7d7778e691642c2e9acd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/60ed7751671113cf1ee7d7778e691642c2e9acd8",
+                "reference": "60ed7751671113cf1ee7d7778e691642c2e9acd8",
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+<<<<<<< HEAD
             "require-dev": {
                 "symfony/phpunit-bridge": "~2.7"
             },
+=======
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2871,14 +3545,22 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
+<<<<<<< HEAD
             "time": "2015-03-30 15:54:10"
+=======
+            "time": "2015-01-25 04:39:26"
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
+<<<<<<< HEAD
     "stability-flags": {
         "fzaninotto/faker": 20
     },
+=======
+    "stability-flags": [],
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

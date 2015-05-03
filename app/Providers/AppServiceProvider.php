@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Providers;
+=======
+<?php namespace App\Providers;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Illuminate\Support\ServiceProvider;
 
@@ -27,7 +31,11 @@ class AppServiceProvider extends ServiceProvider {
 	{
 		$this->app->bind(
 			'Illuminate\Contracts\Auth\Registrar',
+<<<<<<< HEAD
 			'Curso\Services\Registrar'
+=======
+			'App\Services\Registrar'
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 		);
 	}
 

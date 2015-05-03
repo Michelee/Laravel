@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Console\Commands;
+=======
+<?php namespace App\Console\Commands;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

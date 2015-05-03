@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Providers;
+=======
+<?php namespace App\Providers;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;

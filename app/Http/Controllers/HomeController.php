@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Http\Controllers;
+=======
+<?php namespace App\Http\Controllers;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 class HomeController extends Controller {
 

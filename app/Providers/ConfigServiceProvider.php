@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php namespace Curso\Providers;
+=======
+<?php namespace App\Providers;
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 
 use Illuminate\Support\ServiceProvider;
 

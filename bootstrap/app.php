@@ -28,17 +28,29 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
 	'Illuminate\Contracts\Http\Kernel',
+<<<<<<< HEAD
 	'Curso\Http\Kernel'
+=======
+	'App\Http\Kernel'
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Console\Kernel',
+<<<<<<< HEAD
 	'Curso\Console\Kernel'
+=======
+	'App\Console\Kernel'
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Debug\ExceptionHandler',
+<<<<<<< HEAD
 	'Curso\Exceptions\Handler'
+=======
+	'App\Exceptions\Handler'
+>>>>>>> fc25262... Archivos proyecto nuevo laravel
 );
 
 /*
